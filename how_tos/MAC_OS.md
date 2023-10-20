@@ -80,10 +80,13 @@ First you will need to choose how to create your repository
 The options are the following:
 
 1. **Create a new repository on GitHub from scratch**
+
 		You should select that option if you just started the project
 2. **Create a new repository on GitHub from a template repository**
+
 		You should select that option if you want to use a template repo from Github (rarely used)
 3. **Push an existing local repository to GitHub**
+
 		You should select that option if you would like to upload an existing folder containing files.
 
 
