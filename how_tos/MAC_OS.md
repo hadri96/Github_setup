@@ -43,7 +43,7 @@ To install it, please enter the following command on your Terminal:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-This will give allow for a significant boost in productivity when working on the Terminal (I'll show a couple of useful ones in class) and if you want to know more about Oh My Zsh features, feel free to visit their [website](https://ohmyz.sh/)
+This will allow for a significant boost in productivity when working on the Terminal (I'll show a couple of useful ones in class) and if you want to know more about Oh My Zsh features, feel free to visit their [website](https://ohmyz.sh/)
 
 Once you are done we are now ready to start creating your Github profile!🎉
 
