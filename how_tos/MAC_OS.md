@@ -1,5 +1,10 @@
 # MAC OS Setup
 
+* [Terminal set-up](https://github.com/hadri96/Github_setup/blob/main/how_tos/MAC_OS.md#terminal-set-up)
+* [Using GitHub](https://github.com/hadri96/Github_setup/blob/main/how_tos/MAC_OS.md#github-setup)
+	* [Repository creation](https://github.com/hadri96/Github_setup/blob/main/how_tos/MAC_OS.md#creating-a-repository)
+
+
 ## Terminal set-up
 
 As MAC OS users, you already have most of what's needed to work with GitHub.
@@ -64,7 +69,7 @@ During this process, it will ask you how you want to authenticate, **please make
 
 ## Using Github
 
-### Creating the Repository
+### Creating a Repository
 
 To create a repository on GitHub: we will use the following command:
 
