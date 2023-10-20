@@ -141,7 +141,7 @@ Adding a license is a good practice, especially if you want to encourage collabo
 
 7. At this stage you are almost done, GitHub is just asking you for the final green light before creating the repository
 
-![screenshot](https://github.com/hadri96/Github_setup/blob/main/screenshots/confimation.png?raw=true)
+![screenshot](https://github.com/hadri96/Github_setup/blob/main/screenshots/confirmation.png?raw=true)
 
 8. Before wrapping up, GitHub will just ask you whether you want to clone your repo on your local machine
 
