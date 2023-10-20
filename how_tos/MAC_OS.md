@@ -1,4 +1,4 @@
-# MAC Users
+# MAC OS Setup
 
 ## Terminal set-up
 

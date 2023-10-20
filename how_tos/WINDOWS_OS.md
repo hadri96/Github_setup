@@ -30,4 +30,4 @@ The first obvious step will be to create your own Github profile, you can regist
 
 Once you are done with that, we are going to have to follow the steps on this [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to create and link your machine with your Github account.
 
-This part might be a bit more challenging which is why we will complete it in class.
+This part might be a bit more challenging which is why we will complete it in class if you encounter troubles.
