@@ -75,7 +75,7 @@ This will prompt a series of questions:
 
 First you will need to choose how to create your repository
 
-![alt text](https://github.com/hadri96/Github_setup/blob/main/create_from_scratch.png?raw=true)
+![screenshot](https://github.com/hadri96/Github_setup/blob/main/screenshots/create_from_scratch.png?raw=true)
 
 The options are the following:
 
