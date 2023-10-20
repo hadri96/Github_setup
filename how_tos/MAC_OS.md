@@ -33,7 +33,9 @@ brew install gh && brew upgrade gh &&
 brew install openssh && brew upgrade openssh
 ```
 
-### Oh My Zsh
+Once you are done we are now ready to start setting up your Github access!🎉
+
+## Oh My Zsh (optional)
 
 Before we move on to set up Github, we are also going to install Oh My Zsh on your machine. Oh My Zsh is a popular open-source framework that makes your command line on a computer more user-friendly and customizable by adding cool features and designs. It's like giving your computer's "talking" part a makeover.
 
@@ -45,8 +47,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 This will allow for a significant boost in productivity when working on the Terminal (I'll show a couple of useful ones in class) and if you want to know more about Oh My Zsh features, feel free to visit their [website](https://ohmyz.sh/)
 
-Once you are done we are now ready to start creating your Github profile!🎉
-
 ## Github setup
 
 The first obvious step will be to create your own Github profile, you can register [there](https://github.com/signup?).
@@ -55,5 +55,35 @@ Once you are done with that, we are going to have to follow the steps on this [l
 
 This part might be a bit more challenging which is why we will complete it in class.
 
+Once this step is complete, you will need to then authenticate by entering the command:
+
+```bash
+gh auth login
+```
+During this process, it will ask you how you want to authenticate, **please make sure to select the SSH option**
+
+## Using Github
+
+### Creating the Repository
+
+To create a repository on Github: we will use the following command:
+
+```bash
+gh repo create
+```
+This will prompt a series of questions:
+
+First you will need to choose how to create your repository
+
+![alt text](https://github.com/hadri96/Github_setup/blob/main/create_from_scratch.png?raw=true)
+
+The options are the following:
+
+1. **Create a new repository on GitHub from scratch**
+	You should select that option if you just started the project
+2. **Create a new repository on GitHub from a template repository**
+	You should select that option if you want to use a template repo from Github (rarely used)
+3. **Push an existing local repository to GitHub**
+	You should select that option if you would like to upload an existing folder containing files.
 
 
