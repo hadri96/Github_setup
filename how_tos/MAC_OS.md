@@ -8,6 +8,6 @@ However, we do need to install a couple more things and to do that we need Homeb
 
 To install Homebrew, run the following command on your Terminal
 
-bash```
+bash ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
