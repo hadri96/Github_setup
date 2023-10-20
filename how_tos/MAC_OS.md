@@ -96,7 +96,7 @@ This will prompt a series of questions:
 
 2. In this step, you will have to enter several informations about your repository such as the name of the repo, the owner of the repository (can be you or one of the organizations you are a part of and finally a small description of what this project is about)
 
-![screenshot](https://github.com/hadri96/Github_setup/blob/main/screenshots/repo_info.png?raw=true)
+	![screenshot](https://github.com/hadri96/Github_setup/blob/main/screenshots/repo_info.png?raw=true)
 
 3. For this step, the visibility of your project
 
