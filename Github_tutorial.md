@@ -113,6 +113,17 @@ git status
 
 To work with others, you're going to have to create **branches**. These branches are like parallel universes 🌌 that you can create and that contain a specific version of your project.
 
+#### ⚠️ Why you should never work on the main/master branch when collaborating with others! ⚠️
+
+The main/master branch should always be considered the "production" version of your code - the stable, working version that everyone can rely on. Here's why you should never work directly on it:
+
+1. **Risk of breaking the code**: If you make changes directly on main and something goes wrong, you could break the code for everyone else
+2. **Loss of code review**: Working on main bypasses the pull request process, which means your code isn't reviewed by others
+3. **Difficulty tracking changes**: When multiple people work directly on main, it becomes hard to track who made what changes and why
+4. **No easy rollback**: If something goes wrong, it's much harder to undo changes when they're made directly on main
+
+Always create a new branch for your work, even if you're working alone. This keeps your main branch clean and stable! 🛡️
+
 #### Creating a branch 🌿
 
 To create a new branch and go on it, use the following command:
@@ -120,6 +131,7 @@ To create a new branch and go on it, use the following command:
 ```bash
 git checkout -b <branch_name>
 ```
+
 
 #### Merging your branch to the main branch 🔄
 
