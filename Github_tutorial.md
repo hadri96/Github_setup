@@ -38,7 +38,26 @@ A few important things about the repository creation:
 - **visibility**: allows you to decide whether other people can see your repository. A **public** repo is visible by anyone on github whereas a **private** repository is only visible by you and your teammates.
 - **README.md**: a Markdown file that can be used to describe your project and explain how to use it to others. Usually a good practice to have one.
 - **.gitignore**: a hidden file that allows you to prevent files to be updated to github. Usually, you will put the names of files that shouldn't be shared (with authentication information or if files are too large (GH only allows 100 MB maximum)). Github provides templates for each language so you can pick the right template when you start a project.
+
+
 - **license**: this is not so important but it just protects you if you are worried that your code will be reused by others. Again, github provides templates of various licenses.
+
+#### A side note on why certain files should never be uploaded to GitHub ⚠️
+
+1. **Confidential information**:
+   - API keys and passwords: If accidentally pushed to a public repo, they can be harvested by malicious bots within seconds
+   - Environment variables (.env files): These often contain credentials and should always be in your .gitignore
+   - Access tokens and certificates: These provide direct access to your services
+   - Personal data: Avoid uploading any files containing personally identifiable information
+   - **⚠️ IMPORTANT: Once committed, always exposed**: Due to Git's version control system, even if you delete confidential information in a later commit, it remains permanently accessible in the repository's commit history. This means anyone with access to the repository can still find and use your exposed credentials by examining past commits. The only complete solution is to delete the repository or to change the published credentials.
+
+2. **Large files**:
+   - GitHub has a strict file size limit of 100 MB per file
+   - Repositories with many large files become slow to clone and work with
+   - Large datasets, compiled binaries, and media files should generally be stored elsewhere
+   - Consider using Git LFS (Large File Storage) for necessary large files, or external storage solutions
+
+> **Best Practice**: Confidential files (like .env, credentials.json) and heavy files (datasets, images, videos) should be explicitly listed in your .gitignore file to prevent them from being accidentally committed to your repository.
 
 ### Getting an already existing repository 📥
 
